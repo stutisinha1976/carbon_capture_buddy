@@ -15,7 +15,7 @@ def get_gemini_response(input_text, image=None):
     
     # Check if the question is about carbon footprint
     if "carbon footprint" in input_text.lower():
-        input_text = f"Provide a rough average value for the carbon footprint for the following object or activity: {input_text}, if the carbon content is more than a healthy amount, suggest an alternative. "
+        input_text = f"Provide a rough average value for the carbon footprint for the following object or activity: {input_text}, if the item is not envioronment friendly, suggest an alternative in a few lines. "
 
     # Generate the response based on input and image
     if input_text:
