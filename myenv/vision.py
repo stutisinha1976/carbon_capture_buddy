@@ -63,20 +63,20 @@ st.markdown("""
         background-color: #e8f5e9;
         color: green;
         border: none;
-        border-radius: 10px;  /* Adding border radius for buttons */
+        border-radius: 50px;  /* Adding border radius for buttons */
         padding: 10px 20px;  /* Adding padding for buttons */
         margin: 10px 0;  /* Spacing between buttons */
         font-size: 16px;  /* Larger font for buttons */
     }
     .stTextInput > div > div > input, .stFileUploader > div {
         background-color: #f1f8e9;
-        color: green;
+        color: red;
         border: 2px solid #8b4513; /* Brown border */
         border-radius: 10px;
         padding: 10px;  /* Adding padding to input fields */
     }
     .stFileUploader div[role="button"] {
-        background-color: #4CAF50; /* Green background */
+        background-color: #fffff; /* Green background */
         color: white; /* White text for contrast */
         border-radius: 10px;
         padding: 10px;  /* Padding for the file uploader */
